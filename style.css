@@ -5,21 +5,20 @@ img {
     font-size: 18px;
   }
   body {
-    background-color: rgb(21, 170, 63);
+    background: linear-gradient(to right, rgb(65, 148, 44), rgb(69, 170, 165));
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: white;
+    color: rgb(245, 229, 229);
     text-align: center;
   }
   a {
-    background-color:rgb(222, 52, 14);
+    background-color: aliceblue;
     font-size: 20px;
     border-radius: 10px 60px 50px 60px;
     padding: 10px;
-    display: flexbox;
+    display: block;
     text-align: center;
     margin: 10px;
-    color: white;
-    width: 90px;
+    color: rgb(233, 124, 124);
 
   }
   p{
@@ -29,7 +28,10 @@ img {
     margin-right: 50px;
     font-size: 20px;
   }
-
+  a:hover{
+    color: rgb(35, 178, 22);
+    background-color: rgb(228, 120, 120);
+  }
 
 
   
